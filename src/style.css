@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(217, 203, 240);
+}
+
+#trainImage {
+  display: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10vh;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+#webcam {
+  display: block;
+}
+
+#head {
+  color: rgb(32, 22, 22);
+  flex-direction: column;
+}
+
+#console {
+  color: rgb(0, 63, 52);
+}
+
+#output {
+  margin-top: 5vh;
+  display: block;
+  background-color: rgb(10, 10, 10);
+  text-align: left;
+  padding: 20px;
+  height: 150px;
+  width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+}
